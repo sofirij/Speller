@@ -1,5 +1,7 @@
 Spell Checker
+
 Overview
+
 This project implements a spell checker using a hash table. It allows you to load a dictionary of words and check the spelling of words in a text file. The spell checker reports misspelled words and provides performance benchmarks for loading the dictionary, checking words, determining the dictionary's size, and unloading the dictionary.
 
 Files
