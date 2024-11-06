@@ -11,6 +11,7 @@ dictionary.c: Contains the implementation of the dictionary functions.
 Makefile: Automates the build process.
 
 Installation
+
 To compile the spell checker, ensure you have a C compiler installed (e.g., gcc) and execute the following command:
 make speller
 
