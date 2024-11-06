@@ -53,14 +53,21 @@ Performance Metrics
 The program measures and reports the following timings:
 
 TIME IN load: Time taken to load the dictionary.
+
 TIME IN check: Time taken to check all words in the text.
+
 TIME IN size: Time taken to determine the size of the dictionary.
+
 TIME IN unload: Time taken to unload the dictionary from memory.
+
 TIME IN TOTAL: Total time taken for all operations.
 
 Testing
+
 You can test the spell checker with various texts and dictionaries provided in the texts directory. The dictionaries/small file contains a smaller dictionary for easier testing.
 
 Memory Management
+
 The implementation ensures no memory leaks by properly freeing allocated memory in the unload function. Use valgrind to check for memory leaks:
+
 valgrind --leak-check=full ./speller dictionaries/large text.txt
